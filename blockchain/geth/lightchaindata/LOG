@@ -1,0 +1,92 @@
+=============== May 8, 2020 (PDT) ===============
+21:37:45.943125 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:37:45.995213 db@open opening
+21:37:46.001364 version@stat F·[] S·0B[] Sc·[]
+21:37:46.061346 db@janitor F·2 G·0
+21:37:46.061346 db@open done T·66.1329ms
+21:37:46.126158 db@close closing
+21:37:46.130151 db@close done T·3.9929ms
+=============== May 9, 2020 (PDT) ===============
+05:35:07.926189 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:35:07.933269 version@stat F·[] S·0B[] Sc·[]
+05:35:07.933269 db@open opening
+05:35:07.934167 journal@recovery F·1
+05:35:07.945141 journal@recovery recovering @1
+05:35:07.993621 memdb@flush created L0@2 N·10 S·582B "HsW..D\x90\xe3,v3":"r\x00\x00..D\x90\xe3,v5"
+05:35:08.009110 version@stat F·[1] S·582B[582B] Sc·[0.25]
+05:35:08.065256 db@janitor F·3 G·0
+05:35:08.066401 db@open done T·132.9799ms
+05:35:08.110282 db@close closing
+05:35:08.128081 db@close done T·17.7992ms
+=============== May 24, 2020 (PDT) ===============
+02:42:18.463457 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:42:18.518860 version@stat F·[1] S·582B[582B] Sc·[0.25]
+02:42:18.518860 db@open opening
+02:42:18.521849 journal@recovery F·1
+02:42:18.523888 journal@recovery recovering @3
+02:42:18.595774 memdb@flush created L0@5 N·1 S·326B "eth..D\x90\xe3,v12":"eth..D\x90\xe3,v12"
+02:42:18.607739 version@stat F·[2] S·908B[908B] Sc·[0.50]
+02:42:18.668073 db@janitor F·4 G·0
+02:42:18.668073 db@open done T·149.2138ms
+02:42:18.709678 db@close closing
+02:42:18.716659 db@close done T·6.9803ms
+=============== May 25, 2020 (PDT) ===============
+04:53:45.085226 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:53:45.086227 version@stat F·[2] S·908B[908B] Sc·[0.50]
+04:53:45.086227 db@open opening
+04:53:45.086227 journal@recovery F·1
+04:53:45.088221 journal@recovery recovering @6
+04:53:45.116473 memdb@flush created L0@8 N·1 S·326B "eth..D\x90\xe3,v14":"eth..D\x90\xe3,v14"
+04:53:45.117470 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+04:53:45.176478 db@janitor F·5 G·0
+04:53:45.176478 db@open done T·90.2508ms
+04:53:45.188444 db@close closing
+04:53:45.193429 db@close done T·4.9853ms
+=============== May 25, 2020 (PDT) ===============
+10:13:45.041877 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:13:45.069137 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+10:13:45.069137 db@open opening
+10:13:45.069137 journal@recovery F·1
+10:13:45.073126 journal@recovery recovering @9
+10:13:45.107324 memdb@flush created L0@11 N·1 S·326B "eth..D\x90\xe3,v16":"eth..D\x90\xe3,v16"
+10:13:45.110340 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+10:13:45.187122 db@janitor F·6 G·0
+10:13:45.187122 db@open done T·117.9848ms
+10:13:45.187122 table@compaction L0·4 -> L1·0 S·1KiB Q·17
+10:13:45.219574 db@close closing
+10:13:45.258749 table@build created L1@14 N·10 S·582B "HsW..D\x90\xe3,v3":"r\x00\x00..D\x90\xe3,v5"
+10:13:45.258749 table@build exiting
+10:13:45.258749 table@build revert @14
+10:13:45.264761 db@close done T·45.1863ms
+=============== Jun 9, 2020 (PDT) ===============
+06:31:49.703804 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:31:49.739717 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+06:31:49.739717 db@open opening
+06:31:49.739717 journal@recovery F·1
+06:31:49.739717 journal@recovery recovering @12
+06:31:49.776610 memdb@flush created L0@14 N·1 S·326B "eth..D\x90\xe3,v18":"eth..D\x90\xe3,v18"
+06:31:49.777607 version@stat F·[5] S·1KiB[1KiB] Sc·[1.25]
+06:31:49.858391 db@janitor F·7 G·0
+06:31:49.858391 db@open done T·118.6742ms
+06:31:49.858391 table@compaction L0·5 -> L1·0 S·1KiB Q·19
+06:31:49.899280 db@close closing
+06:31:49.954134 table@build created L1@17 N·10 S·582B "HsW..D\x90\xe3,v3":"r\x00\x00..D\x90\xe3,v5"
+06:31:49.954134 table@build exiting
+06:31:49.954134 table@build revert @17
+06:31:49.971089 db@close done T·71.8086ms
+=============== Jun 15, 2020 (PDT) ===============
+21:57:18.014425 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:57:18.015329 version@stat F·[5] S·1KiB[1KiB] Sc·[1.25]
+21:57:18.015329 db@open opening
+21:57:18.016330 journal@recovery F·1
+21:57:18.017326 journal@recovery recovering @15
+21:57:18.065931 memdb@flush created L0@17 N·1 S·326B "eth..D\x90\xe3,v20":"eth..D\x90\xe3,v20"
+21:57:18.076911 version@stat F·[6] S·2KiB[2KiB] Sc·[1.50]
+21:57:18.169366 db@janitor F·8 G·0
+21:57:18.169366 db@open done T·154.0369ms
+21:57:18.170286 table@compaction L0·6 -> L1·0 S·2KiB Q·21
+21:57:18.198353 db@close closing
+21:57:18.221931 table@build created L1@20 N·10 S·582B "HsW..D\x90\xe3,v3":"r\x00\x00..D\x90\xe3,v5"
+21:57:18.221931 table@build exiting
+21:57:18.221931 table@build revert @20
+21:57:18.237144 db@close done T·38.7915ms

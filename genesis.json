@@ -1,0 +1,16 @@
+{
+	"difficulty" : "0x200",
+	"gaslimit"   : "0xffffffff",
+	"config" : {
+			"chainId" : 12345,
+			"homesteadBlock" : 0,
+			"eip150Block": 0,
+			"eip155Block" : 0,
+			"eip158Block" : 0,
+			"byzantiumBlock":0
+	},
+	"alloc": {},
+	
+	"timestamp":"0x00",
+	"parantHash":"0x00000000000000000000000000000"
+}
